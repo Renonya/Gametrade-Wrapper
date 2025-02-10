@@ -44,7 +44,7 @@ class Gametrade():
                 result = capmonster.join_task_result(task_id)
                 return result.get("gRecaptchaResponse")
             except:
-                print("error captcha unsolve... try again...")
+                print("error captcha unsolved try again...")
 
 
     def login(self,email,password):
